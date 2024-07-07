@@ -380,12 +380,12 @@
                     </div>
                     @if($latest['sale_price']>0)
                         <div class="price">
-                            <strike style="color: #761b18;">BDT {{$latest['price']}}</strike>
-                            <span style="color: #2d995b">BDT {{$latest['sale_price']}}</span>
+                            <strike style="color: #761b18;">Rp. {{$latest['price']}}</strike>
+                            <span style="color: #2d995b">Rp. {{$latest['sale_price']}}</span>
                         </div>
                         <a href="{{route('products.productshop')}}" class="btn btn-outline-success">ORDER NOW</a>
                     @else
-                        <div class="price">BDT {{$latest['price']}}</div>
+                        <div class="price">Rp. {{$latest['price']}}</div>
                         <a href="{{route('products.productshop')}}" class="btn btn-outline-success">ORDER NOW</a>
                     @endif
                 </div>
@@ -458,12 +458,12 @@
                     </div>
                     @if($product['sale_price']>0)
                         <div class="price">
-                            <strike style="color: #761b18;">BDT {{$product['price']}}</strike>
-                            <span style="color: #2d995b">BDT {{$product['sale_price']}}</span>
+                            <strike style="color: #761b18;">Rp. {{$product['price']}}</strike>
+                            <span style="color: #2d995b">Rp. {{$product['sale_price']}}</span>
                         </div>
                         <a href="{{route('products.productshop')}}" class="btn btn-outline-success">ORDER NOW</a>
                     @else
-                        <div class="price">BDT {{$product['price']}}</div>
+                        <div class="price">Rp. {{$product['price']}}</div>
                         <a href="{{route('products.productshop')}}" class="btn btn-outline-success">ORDER NOW</a>
                     @endif
 {{--                    <div class="price">LKR 8500</div>--}}

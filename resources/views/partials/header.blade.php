@@ -82,7 +82,7 @@
 <div class='hero'>
     <div class="hero-one"></div>
     <div class="hero-two"></div>
-    <h1 class="header-title"><span class="header-primary">Cakes</span><span class="header-sub">and your deepest desire</span></h1>
+    <h1 class="header-title"><span class="header-primary">HalalWay</span><span class="header-sub">platform yang aman dan sesuai syariah bagi umat Muslim di era digital</span></h1>
 </div>
 
 
